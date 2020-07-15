@@ -15,6 +15,7 @@
 		04E4AFAA24BDF73B00DFC18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E4AFA824BDF73B00DFC18B /* LaunchScreen.storyboard */; };
 		04E4AFB224BF48B100DFC18B /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFB124BF48B100DFC18B /* Background.swift */; };
 		04E4AFB424BF4C0C00DFC18B /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFB324BF4C0C00DFC18B /* Island.swift */; };
+		04E4AFB624BF53CC00DFC18B /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFB524BF53CC00DFC18B /* Cloud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		04E4AFAB24BDF73B00DFC18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E4AFB124BF48B100DFC18B /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		04E4AFB324BF4C0C00DFC18B /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		04E4AFB524BF53CC00DFC18B /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				04E4AF9924BDF73A00DFC18B /* AppDelegate.swift */,
 				04E4AF9F24BDF73A00DFC18B /* GameScene.swift */,
 				04E4AFB324BF4C0C00DFC18B /* Island.swift */,
+				04E4AFB524BF53CC00DFC18B /* Cloud.swift */,
 				04E4AFB124BF48B100DFC18B /* Background.swift */,
 				04E4AFA124BDF73A00DFC18B /* GameViewController.swift */,
 				04E4AFA324BDF73A00DFC18B /* Main.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E4AFA024BDF73A00DFC18B /* GameScene.swift in Sources */,
+				04E4AFB624BF53CC00DFC18B /* Cloud.swift in Sources */,
 				04E4AFA224BDF73A00DFC18B /* GameViewController.swift in Sources */,
 				04E4AF9A24BDF73A00DFC18B /* AppDelegate.swift in Sources */,
 				04E4AFB424BF4C0C00DFC18B /* Island.swift in Sources */,
