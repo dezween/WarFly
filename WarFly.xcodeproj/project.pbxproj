@@ -18,6 +18,7 @@
 		04E4AFB624BF53CC00DFC18B /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFB524BF53CC00DFC18B /* Cloud.swift */; };
 		04E4AFB824C09F0500DFC18B /* PlayerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFB724C09F0500DFC18B /* PlayerPlane.swift */; };
 		04E4AFBA24C0A09600DFC18B /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 04E4AFB924C0A09600DFC18B /* PlayerPlane.atlas */; };
+		04E4AFBC24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFBB24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		04E4AFB524BF53CC00DFC18B /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		04E4AFB724C09F0500DFC18B /* PlayerPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPlane.swift; sourceTree = "<group>"; };
 		04E4AFB924C0A09600DFC18B /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
+		04E4AFBB24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameBackgroundSpriteable + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				04E4AF9924BDF73A00DFC18B /* AppDelegate.swift */,
+				04E4AFBB24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift */,
 				04E4AF9F24BDF73A00DFC18B /* GameScene.swift */,
 				04E4AFB724C09F0500DFC18B /* PlayerPlane.swift */,
 				04E4AFB324BF4C0C00DFC18B /* Island.swift */,
@@ -156,6 +159,7 @@
 			files = (
 				04E4AFA024BDF73A00DFC18B /* GameScene.swift in Sources */,
 				04E4AFB824C09F0500DFC18B /* PlayerPlane.swift in Sources */,
+				04E4AFBC24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift in Sources */,
 				04E4AFB624BF53CC00DFC18B /* Cloud.swift in Sources */,
 				04E4AFA224BDF73A00DFC18B /* GameViewController.swift in Sources */,
 				04E4AF9A24BDF73A00DFC18B /* AppDelegate.swift in Sources */,
