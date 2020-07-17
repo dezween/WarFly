@@ -51,7 +51,6 @@ class PlayerPlane: SKSpriteNode {
             if let data = data {
                 let acceleration = data.acceleration
                 self.xAcceleration = CGFloat(acceleration.x) * 0.1 + self.xAcceleration * 0.07
-                print(self.xAcceleration)
             }
         }
         
