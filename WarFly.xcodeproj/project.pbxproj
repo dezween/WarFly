@@ -24,6 +24,9 @@
 		04E4AFC424C24A9800DFC18B /* Enemy_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 04E4AFC324C24A9800DFC18B /* Enemy_1.atlas */; };
 		04E4AFC624C24CD100DFC18B /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFC524C24CD100DFC18B /* Enemy.swift */; };
 		04E4AFC824C260D900DFC18B /* Enemy_2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 04E4AFC724C260D900DFC18B /* Enemy_2.atlas */; };
+		04E4AFCA24C38D9900DFC18B /* BluePowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 04E4AFC924C38D9800DFC18B /* BluePowerUp.atlas */; };
+		04E4AFCC24C392E000DFC18B /* BluePowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFCB24C392E000DFC18B /* BluePowerUp.swift */; };
+		04E4AFCE24C392EC00DFC18B /* GreenPowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4AFCD24C392EC00DFC18B /* GreenPowerUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		04E4AFC324C24A9800DFC18B /* Enemy_1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_1.atlas; sourceTree = "<group>"; };
 		04E4AFC524C24CD100DFC18B /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		04E4AFC724C260D900DFC18B /* Enemy_2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_2.atlas; sourceTree = "<group>"; };
+		04E4AFC924C38D9800DFC18B /* BluePowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BluePowerUp.atlas; sourceTree = "<group>"; };
+		04E4AFCB24C392E000DFC18B /* BluePowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePowerUp.swift; sourceTree = "<group>"; };
+		04E4AFCD24C392EC00DFC18B /* GreenPowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenPowerUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 				04E4AFBB24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift */,
 				04E4AF9F24BDF73A00DFC18B /* GameScene.swift */,
 				04E4AFBD24C23BCC00DFC18B /* PowerUp.swift */,
+				04E4AFCB24C392E000DFC18B /* BluePowerUp.swift */,
+				04E4AFCD24C392EC00DFC18B /* GreenPowerUp.swift */,
 				04E4AFB724C09F0500DFC18B /* PlayerPlane.swift */,
 				04E4AFC524C24CD100DFC18B /* Enemy.swift */,
 				04E4AFB324BF4C0C00DFC18B /* Island.swift */,
@@ -94,6 +102,7 @@
 				04E4AFAB24BDF73B00DFC18B /* Info.plist */,
 				04E4AFC324C24A9800DFC18B /* Enemy_1.atlas */,
 				04E4AFC724C260D900DFC18B /* Enemy_2.atlas */,
+				04E4AFC924C38D9800DFC18B /* BluePowerUp.atlas */,
 				04E4AFC124C23DA400DFC18B /* GreenPowerUp.atlas */,
 				04E4AFB924C0A09600DFC18B /* PlayerPlane.atlas */,
 			);
@@ -164,6 +173,7 @@
 				04E4AFC224C23DA400DFC18B /* GreenPowerUp.atlas in Resources */,
 				04E4AFBA24C0A09600DFC18B /* PlayerPlane.atlas in Resources */,
 				04E4AFA724BDF73B00DFC18B /* Assets.xcassets in Resources */,
+				04E4AFCA24C38D9900DFC18B /* BluePowerUp.atlas in Resources */,
 				04E4AFAA24BDF73B00DFC18B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,9 +189,11 @@
 				04E4AFB824C09F0500DFC18B /* PlayerPlane.swift in Sources */,
 				04E4AFBC24C0BD0A00DFC18B /* GameBackgroundSpriteable + Extension.swift in Sources */,
 				04E4AFB624BF53CC00DFC18B /* Cloud.swift in Sources */,
+				04E4AFCC24C392E000DFC18B /* BluePowerUp.swift in Sources */,
 				04E4AFA224BDF73A00DFC18B /* GameViewController.swift in Sources */,
 				04E4AF9A24BDF73A00DFC18B /* AppDelegate.swift in Sources */,
 				04E4AFC624C24CD100DFC18B /* Enemy.swift in Sources */,
+				04E4AFCE24C392EC00DFC18B /* GreenPowerUp.swift in Sources */,
 				04E4AFB424BF4C0C00DFC18B /* Island.swift in Sources */,
 				04E4AFBE24C23BCC00DFC18B /* PowerUp.swift in Sources */,
 				04E4AFB224BF48B100DFC18B /* Background.swift in Sources */,
