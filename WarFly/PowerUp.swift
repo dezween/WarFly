@@ -23,11 +23,18 @@ class PowerUp: SKSpriteNode {
         textureNameBeginsWith = String(textureName.dropLast(6))
         super.init(texture: texture, color: .clear, size: initialSize)
         self.setScale(0.7)
-        self.name = "powerUp"
+        self.name = "sprite"
         self.zPosition = 20
     }
     
-    func permormRotation() {
+    func startMovement() {
+        permormRotation()
+        
+        let moveForward = SKAction.moveTo(y: -100, duration: 5)
+        self.run(moveForward)
+    }
+    
+    fileprivate func permormRotation() {
         for i in 1...15 {
             let number = String(format: "%02d", i)
             animationSpriteArray.append(SKTexture(imageNamed: textureNameBeginsWith + number.description))
